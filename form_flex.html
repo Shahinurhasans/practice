@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .left {
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-around;
+        }
+        .right {
+            margin-left: auto;
+        }
+        nav a {
+            text-decoration: none;
+        }
+
+        
+        .ff {
+            display: flex;
+            flex-direction: column;
+            
+            padding: 10px;
+            width: 300px;
+            border: 2px solid red;
+            background-color: bisque;
+        }
+        .con {
+            border: 2px solid aqua;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="">Home</a>
+            <a href="">Project</a>
+            <a href="">Education</a>
+        </div>
+        <div class="right">
+            <a href="">Login</a>
+        </div>
+    </nav>
+    <div class="con"> 
+        <form class="ff">
+            <input type="email" placeholder="Enter your email">
+            <input type="password" placeholder="Enter your password">
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
